@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
+    <title>Pastel</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,27 +15,27 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#home">Home</a></li>
+          <li><a href="#home">O nama</a></li>
           <div class="dropdown">
-            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#gallery">Galerija</a></li>
             <div>
                 <ul class="dropdown-content">
-                    <li>Grilje</li>
-                    <li>Škure</li>
+                    <li><a href="#grilje">Grilje</a></li>
+                    <li><a href="#skure">Škure</a></li>
                     <li>Vrata</li>
                     <li>Prozori</li>
                     <li>Kuhinje</li>
                 </ul>
             </div>
           </div>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Kontakt</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="home">
+      <section id="home" class="section">
         <div>
-            <h2>Home</h2>
+            <h2>O nama</h2>
         </div>
         <div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ante vel magna malesuada vehicula nec id libero. Cras blandit eu elit nec egestas. Donec placerat sapien et felis scelerisque molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec aliquam luctus tristique. Sed mattis neque scelerisque ex fermentum sodales. Proin bibendum volutpat est ut eleifend. Integer aliquet aliquet massa, sed lacinia felis ullamcorper sed. Integer ultricies consectetur leo ac iaculis. Vivamus euismod sapien consequat faucibus lobortis. In sit amet metus in velit sagittis efficitur. Aliquam erat volutpat. Suspendisse malesuada interdum quam nec faucibus. Sed euismod ante sed placerat luctus. Nulla nunc turpis, ultrices ut metus sit amet, posuere eleifend lectus. Phasellus ex sem, elementum in purus in, tincidunt tincidunt urna.</p>
@@ -47,21 +47,31 @@
             </ul>
         </div>
       </section>
-      <section id="gallery">
+      <section id="gallery" class="section">
         <div>
-            <h2>Gallery</h2>
+            <h2>Galerija</h2>
         </div>
-        <p>Check out some of my photos:</p>
-        <div class="slike">
-            <img src="Gallery/one.png" alt="Image 1">
-            <img src="Gallery/two.jpg" alt="Image 2">
-            <img src="Gallery/three.jpeg" alt="Image 3">
-            <img src="Gallery/four.jpg" alt="Image 3">
-        </div>
+        <section id="grilje">
+            <h3>Grilje:</h3>
+            <div class="slike">
+                <img src="grilje/grilje1.jpg" alt="Image 1">
+                <img src="grilje/grilje2.jpg" alt="Image 2">
+                <img src="grilje/grilje3.jpg" alt="Image 3">
+            </div>
+        </section>
+        <section id="skure">
+        <h3>Škure:</h3>
+            <div class="slike">
+                <img src="skure/skure1.jpg" alt="Image 1">
+                <img src="skure/skure2.jpg" alt="Image 2">
+                <img src="skure/skure3.webp" alt="Image 3">
+                <img src="skure/skure4.jpg" alt="Image 3">
+            </div>
+        </section>
       </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>Get in touch with me:</p>
+      <section id="contact" class="section">
+        <h2>Kontakt</h2>
+        <p><a href="tel:091 616 1287"></a>+385 91 616 1287</p>
       </section>
     </main>
   </body>

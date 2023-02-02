@@ -74,7 +74,7 @@ body {
     padding: 2em;
   }
   
-  section { 
+  .section { 
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -87,9 +87,9 @@ body {
   #home {
     padding-bottom: 50px;
   }
-  
+
   #gallery {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
   }
