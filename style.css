@@ -77,15 +77,34 @@ body {
   .section { 
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    margin: 10px;
+    padding: 10px;
+    margin: 1px;
+    align-items: center;
     border-radius:  10px;
     border: 2px solid #3D5A80;
     background-color: #98C1D9;
   }
-  
   #home {
     padding-bottom: 50px;
+  }
+
+  #hometext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    font-size: 150%;
+
+  }
+  
+  #hometext img{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 3px #00000069;
+    border: 2px solid #293241;
   }
 
   #gallery {
